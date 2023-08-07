@@ -5,8 +5,14 @@ This repository implements the computation of Sentence Bert Embeddings for input
 
 The embeddings are visualized in 3D using the [UMAP transform](https://umap-learn.readthedocs.io/en/latest/) where sentences that come from the same pair are indicated with the same color in the plot.
 
+## Dependencies
+Install all the necessary package requirements.
 
-## Comments
+````python
+pip install -r requirements.txt
+````
+
+## Notes
 The code is test it in Python 3.9.17.
 
 You may want to add the following on the top of your code if you get any `numba` related warnings. 
