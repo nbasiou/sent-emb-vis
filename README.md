@@ -4,7 +4,9 @@ Sentence Embeddings Extraction and Visualization
 <<<<<<< Updated upstream
 This repository implements the computation of Sentence Bert Embeddings for input sentences using the Huggingface API. The code uses the [GLUE Semantic Textual Similarity Benchmark (STSB)](http://ixa2.si.ehu.es/stswiki/index.php/STSbenchmark) dataset. For the sentence embeddings the sentence-transformers model [`sentence-transformers/all-MiniLM-L6-v2`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2) is used.
 
-The embeddings are visualized in 3D using the [UMAP transform](https://umap-learn.readthedocs.io/en/latest/) where sentences that come from the same pair are indicated with the same color in the plot.
+The embeddings are visualized in 3D interactive plot using the [UMAP transform](https://umap-learn.readthedocs.io/en/latest/) where sentences that come from the same pair are indicated with the same color in the plot. An example plot for the test dataset is shown in the figure below:
+
+<img src="stsb_fig.png" width="700">
 
 ## Dependencies
 Install all the necessary package requirements.
